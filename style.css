@@ -73,15 +73,16 @@ img{
     grid-row: 3;
 }
 button {
-  background-color: #04AA6D;
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
- 
-  border-radius: 50%;
+   border-radius: 100px;
+ background-color: #405cf5;
+ box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+ box-sizing: border-box;
+ color: #fff;
+ cursor: pointer;
+ border-width: 0;
+ padding: 0 1rem;
+ width: 90px;
+ height: 44px;
+ text-align: center;
   
 }
